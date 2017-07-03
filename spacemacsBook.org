@@ -1,0 +1,92 @@
+MY SPACEMACS BOOK -*- mode: org -*-
+* vim common commad
+** in normal mode
+*** delete
+**** delete whole line
+dd
+*** To cut-and-paste or copy-and-paste:
+
+Position the cursor at the beginning of the text you want to cut/copy.
+Press v to begin character-based visual selection, or V to select whole lines, or Ctrl-v or Ctrl-q to select a block.
+Move the cursor to the end of the text to be cut/copied. While selecting text, you can perform searches and other advanced movement.
+Press d (delete) to cut, or y (yank) to copy.
+Move the cursor to the desired paste location.
+Press p to paste after the cursor, or P to paste before.
+
+*** move cursor
+**** to the end of file
+    G
+**** to the begining of file
+     gg
+* org mode
+** change to org mode
+*** method one:
+In the spacemacs use M-x org-mode change to org mode
+** method two:
+files with the .org extension use Org mode by default
+** method three (recommend)
+make the first line of a file look like this
+MY PROJECTS -*- mode: org -*-
+* write blog
+When you want to write blog
+step 1: you only need type F1
+step 2: type w for write a new blog
+Blog
+
+s   ... Switch between publish and drafts
+d   ... Delete current post
+c   ... Duplicate current post
+w   ... Write new post
+RET ... Open current post
+r   ... Refresh blog-admin
+B   ... Build site
+C   ... Jump to the config
+D   ... Deploy site
+F   ... Filter and show only rows with keyword
+
+* git
+** get status
+   SPC-g-s
+** merge
+m to open the merge popup
+m again for merge
+choose which branch want to merge in
+
+*** solve confilct
+e
+** add to staged
+   if you have unstaged changes
+   move your cursor to file which you want to add to staged
+   type s, that will add this unstaged file to staged
+** remote
+*** add upstream remote
+M to open the remote popup
+a to add a remote, type the name and the URL
+*** fetch
+    f fetch
+    a fetch all
+** commit
+type c
+c again for commit
+eidt commit message
+when you finish type commit message, type ,, for save and exit
+** push
+type p for push
+type u for push to orgin/master
+* mangement window
+** change window
+SPC-1 change to window oneSPC-2 change to window two....
+** close window
+SPC-w-d
+* Buffer
+** whitch buffer
+SPC-b-b
+* open file
+** method one: use NeoTree
+SPC-f-t
+
+** method Two: use Helm find files
+   SPC-f-f
+   You'll see a path and a list of files, and you can fuzzy-search for files in the directory.
+
+Use CTRL h to go up a directory, TAB to auto-complete, and CTRL j or CTRL k to go up/down.
