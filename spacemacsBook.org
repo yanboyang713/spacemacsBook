@@ -1,5 +1,5 @@
 MY SPACEMACS BOOK -*- mode: org -*-
-this is a tst for git diff
+this is a tsdd somet for git diff
 * vim common commad
 ** in normal mode
 *** delete
