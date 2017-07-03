@@ -1,5 +1,9 @@
 MY SPACEMACS BOOK -*- mode: org -*-
+<<<<<<< HEAD
 njiasfchij   this is a tlalalast for git diff hi add newhch
+=======
+this is a tlalalalalast for git diff hi add new
+>>>>>>> test
 * vim common commad
 ** in normal mode
 *** delete
