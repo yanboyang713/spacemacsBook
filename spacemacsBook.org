@@ -1,5 +1,4 @@
 MY SPACEMACS BOOK -*- mode: org -*-
-hihihihihimaster ialalalast for git diff hi add new huisdfhui
 * vim common commad
 ** in normal mode
 *** delete
